@@ -50,4 +50,11 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1"
   }
+},
+{
+  "version": 2,
+  "builds": [
+    { "src": "gulpfile.js", "use": "@now/node" },
+    { "src": "index.html", "use": "@now/static" }
+  ]
 }
